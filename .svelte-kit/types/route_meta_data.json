@@ -1,0 +1,26 @@
+{
+	"/(app)": [],
+	"/": [],
+	"/(dashboard)/admin": [
+		"src/routes/(dashboard)/admin/+page.server.ts"
+	],
+	"/hooks": [
+		"src/routes/hooks/+page.server.ts",
+		"src/routes/hooks/+layout.server.ts",
+		"src/routes/hooks/+layout.server.ts"
+	],
+	"/(app)/quotes/(tags)": [],
+	"/(app)/quotes/(quote)": [
+		"src/routes/(app)/quotes/(quote)/+layout.server.ts",
+		"src/routes/(app)/quotes/(quote)/+layout.server.ts"
+	],
+	"/(app)/quotes/(quote)/id/[quoteId]": [
+		"src/routes/(app)/quotes/(quote)/id/[quoteId]/+page.server.ts"
+	],
+	"/(app)/quotes/(tags)/tags": [
+		"src/routes/(app)/quotes/(tags)/tags/+page.server.ts"
+	],
+	"/(app)/quotes/(tags)/tags/[tag]": [
+		"src/routes/(app)/quotes/(tags)/tags/[tag]/+page.server.ts"
+	]
+}
